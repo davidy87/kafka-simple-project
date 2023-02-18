@@ -5,13 +5,13 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.Properties;
+import java.util.*;
 
 
 public class Consumer {
     private static String TOPIC_NAME = "test";
     private static String GROUP_ID = "testgroup";
+    // AWS server
     private static String BOOTSTRAP_SERVERS = "34.219.58.191:9092";
 
     public static void main(String[] args) {
