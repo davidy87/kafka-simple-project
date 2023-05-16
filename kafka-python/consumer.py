@@ -32,4 +32,5 @@ def consume():
     consumer.close()
 
 
-consume()
+if __name__ == "__main__":
+    consume()
